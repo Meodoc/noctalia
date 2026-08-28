@@ -18,8 +18,9 @@ end = [
     "session",
     "control-center"
 ]
-margin_edge = 10
-margin_ends = 10
+margin_edge = 12
+margin_ends = 12
+padding = 6
 shadow = false
 start = [ "group:g1", "active_window", "media" ]
 
@@ -46,13 +47,7 @@ type = "wifi"
 type = "bluetooth"
 
 [[control_center.shortcuts]]
-type = "caffeine"
-
-[[control_center.shortcuts]]
 type = "nightlight"
-
-[[control_center.shortcuts]]
-type = "notification"
 
 [[control_center.shortcuts]]
 type = "dark_mode"
@@ -67,8 +62,11 @@ auto_locate = true
 [nightlight]
 enabled = true
 
-[shell.panel]
-transparency_mode = "glass"
+[shell]
+screen_time_enabled = true
+
+    [shell.panel]
+    transparency_mode = "glass"
 
 [theme]
 builtin = "Tokyo-Night"
