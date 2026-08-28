@@ -1,0 +1,27 @@
+[backdrop]
+enabled = true
+
+[calendar]
+enabled = true
+
+    [calendar.account.personal_google]
+    type = "google"
+
+[location]
+auto_locate = true
+
+[nightlight]
+enabled = true
+
+[notification]
+position = "top_center"
+
+[osd.kinds]
+lock_keys = false
+
+[shell]
+screen_time_enabled = true
+
+    [shell.panel]
+    transparency_mode = "glass"
+

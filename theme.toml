@@ -1,0 +1,8 @@
+[theme]
+builtin = "Tokyo-Night"
+mode = "dark"
+source = "builtin"
+wallpaper_scheme = "m3-content"
+
+    [theme.templates]
+    builtin_ids = [ "alacritty", "btop", "gtk3", "gtk4", "niri", "qt" ]

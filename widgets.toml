@@ -1,0 +1,63 @@
+[desktop_widgets]
+schema_version = 2
+widget_order = [
+    "desktop-widget-0000000000000001",
+    "desktop-widget-0000000000000002",
+    "desktop-widget-0000000000000003",
+    "desktop-widget-0000000000000004"
+]
+
+    [desktop_widgets.grid]
+    cell_size = 16
+    major_interval = 4
+    visible = true
+
+    [desktop_widgets.widget.desktop-widget-0000000000000001]
+    box_height = 208.0
+    box_width = 1888.0
+    cx = 960.0
+    cy = 1080.0
+    output = "eDP-1"
+    rotation = 0.0
+    type = "audio_visualizer"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000001.settings]
+        bands = 56
+        mirrored = true
+        show_when_idle = false
+
+    [desktop_widgets.widget.desktop-widget-0000000000000002]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 960.0
+    cy = 116.5
+    output = "eDP-1"
+    rotation = 0.0
+    type = "clock"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000002.settings]
+        center_text = true
+        clock_style = "digital"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000003]
+    box_height = 0.0
+    box_width = 0.0
+    cx = 1600.0
+    cy = 277.0
+    output = "eDP-1"
+    rotation = 0.0
+    type = "calendar"
+
+    [desktop_widgets.widget.desktop-widget-0000000000000004]
+    box_height = 208.0
+    box_width = 160.0
+    cx = 130.0
+    cy = 186.0
+    output = "eDP-1"
+    rotation = 0.0
+    type = "media_player"
+
+        [desktop_widgets.widget.desktop-widget-0000000000000004.settings]
+        hide_when_no_media = true
+        layout = "vertical"
+
