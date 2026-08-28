@@ -67,6 +67,9 @@ auto_locate = true
 [nightlight]
 enabled = true
 
+[shell.panel]
+transparency_mode = "glass"
+
 [theme]
 builtin = "Tokyo-Night"
 mode = "dark"
