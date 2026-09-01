@@ -34,7 +34,7 @@ start = [ "group:g1", "active_window", "media" ]
 
 [widget.clock]
 anchor = true
-format = "{:%d. %b %H:%M}"
+format = "{:%A %d. %b %H:%M}"
 
 [widget.workspaces]
 focused_output_only = true
